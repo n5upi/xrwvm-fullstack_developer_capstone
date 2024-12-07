@@ -40,7 +40,25 @@ class CarModel(models.Model):
             MinValueValidator(2015)
         ])
     # Other fields as needed
+    #COLORS = [
+    #    ('BLACK', 'Black'),
+    #    ('WHITE', 'White'),
+    #    ('BLUE', 'Blue'),
+    #    ('RED', 'Red'),
+    #    ('GREEN', ' Green'),
+    #    ('YELLOW', 'Yellow'),
+    #]
+    #color = models.CharField(max_length=10, choices=COLORS, default='BLACK')
+
+    #SHADES = [
+    #    ('', '------'),
+    #    ('LIGHT', 'Light'),
+    #    ('DARK', 'Dark')
+    #]
+
+    #shade = models.CharField(
+    #    max_length=10, choices=SHADES, default='', blank=True
+    #)
 
     def __str__(self):
         return self.name  # Return the name as the string representation
-        
