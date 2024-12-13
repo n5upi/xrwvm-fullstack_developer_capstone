@@ -35,4 +35,7 @@ urlpatterns = [
     # path for dealer id view
     path(route='dealer/<int:dealer_id>', view=views.get_dealer_details, name='dealer_details'),
 
+    # path for get inventory dealer id view
+    path(route='get_inventory/<int:dealer_id>', view=views.get_inventory, name='get_inventory'),  
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
