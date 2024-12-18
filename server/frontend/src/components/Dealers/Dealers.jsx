@@ -8,7 +8,7 @@ import review_icon from "../assets/reviewicon.png"
 //  if (!searchQuery) {
 //    setDealersList(originalDealers);
 //  }
-/}
+//}
 
 //const handleInputChange = (event) => {
 //  const query = event.target.value;
